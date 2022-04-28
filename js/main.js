@@ -23,6 +23,7 @@ for(var i=0; i<lista.length; i++){
     var url = lista[i][3];
 
     aux += '<div class=\"card col-lg-3\"><h3 class=\"titulo\">' + titulo + '</h3><p class=\"descricao\">' + descricao + '</p><div><a href=\"'+ url +'\" target=\"_blank\" rel=\"noopener noreferrer\"><img class=\"imagem_card\" src=\"/img/' + imagem_card + '.jpg\" alt=\"\"></a></div></div>';
-
 }
 conteudo.innerHTML = aux;
+
+alert('Essa página é carregada por meio do arquivo \'main.js\'');
